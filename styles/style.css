@@ -6,3 +6,122 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: arial;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+}
+
+nav ul {
+    width: 85%;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+.main-logo {
+    height: 70px;
+}
+
+.header {
+    height: 600px;
+    background-image: url("/images/landing.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+    text-decoration: underline green 3px;
+}
+
+.header p {
+    font-size: 20px;
+}
+
+
+.whatis {
+    display: flex;
+    flex-direction: column;
+}
+
+.whatis-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.whatis-item-each {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+.whatis-item img {
+    width: 70px;
+}
+
+
+.bottompart {
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    padding: 50px;
+    gap: 40px;
+    align-items: center;
+}
+
+.bottompart > div {
+    flex: 1;
+  }
+
+.bottompart-logo {
+    height: 80px;
+
+}
+
+.bottompart-bigimg {
+    height: 600px;
+}
+
+.bottompart h3 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.bottompart-each {
+    margin: 30px auto;
+    width: 50%;
+
+}
+
+.bottompart-each h4 {
+    font-size: 25px;
+}
